@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shortened URL</title>
+    <link rel="stylesheet" href="/public/style.css">
+	
+</head>
+<body>
+	<div class="result">
+    <h1>Your Shortened URL</h1>
+    <p>Original URL: <%= originalUrl %></p>
+    <p>Short URL: <a href="<%= shortUrl %>" target="_blank"><%= shortUrl %></a></p>
+    <br>
+    <a href="/">Shorten another URL</a>
+</div>
+</body>
+</html>
